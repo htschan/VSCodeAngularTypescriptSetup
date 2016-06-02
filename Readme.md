@@ -34,37 +34,24 @@ These are the steps to setup a project:
 9. Install Angular: ```bower install angular-material --save```
 10. Create folder *src* and *dist* below *app*
 11. Create an *_all.ts* in *src* and put all your references in it
-```
-    // <reference path="../../typings/tsd.d.ts" />
+```javascript
+    /// <reference path="../../typings/tsd.d.ts" />
     /// <reference path="boot.ts" />
-    ```
+````
 12. Create a *tsconfig.json* file in *src*
 13. Compile in *src* with ```tsc.cmd -w``` to watch and compile
 14. Install Server: ```npm install live-server -g```
 
 The resulting folder structure looks like this
 ```
---<myproject>-+-<app>----+--<bower_components>
-
-              |          +--<dist>
-            
-              |          +--<src>
-            
-              |          +--index.html
-            
-              |
-            
-              +-<typings>
-            
+myproject---app----+--bower_components
+          |          +--dist
+          |          +--<src>
+          |          +--index.html
+          |
+          |--typings
               +-.bowerrc
-            
                 +-bower.json
-            
                 +-Readme.md
-            
                 +-tsd.json
 ```
-    
-
-        
-    
