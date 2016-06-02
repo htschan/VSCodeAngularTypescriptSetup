@@ -1,0 +1,21 @@
+{
+  "name": "App1",
+  "authors": [
+    "Hans Tschan <hans.tschan@koch-it.ch>"
+  ],
+  "description": "Test for using VSCode with Typescript and Angular Material",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "^1.0.9"
+  }
+}
