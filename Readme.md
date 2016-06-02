@@ -18,11 +18,10 @@ These are the steps to setup a project:
 4. ```bower init```
 5. Create subfolder *app*
 6. Create .bowerrc
-```
+```javascript
         {
             "directory": "app/bower_components"
-        }
-```
+        }```
 7. Install Typescript: ```npm install typescript -g```
 8. Install TSD: 
 
@@ -37,10 +36,11 @@ These are the steps to setup a project:
 ```javascript
     /// <reference path="../../typings/tsd.d.ts" />
     /// <reference path="boot.ts" />
-````
+```
 12. Create a *tsconfig.json* file in *src*
 13. Compile in *src* with ```tsc.cmd -w``` to watch and compile
 14. Install Server: ```npm install live-server -g```
+15. Run ```live-server``` in *app* folder to watch your changes immediately
 
 The resulting folder structure looks like this
 ```
