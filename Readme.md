@@ -42,16 +42,25 @@ These are the steps to setup a project:
 
 The resulting folder structure looks like this
 ```
---<<myproject>>-+-<<app>>--+--<<bower_components>>
-            |              +--<<dist>>
-            |              +--<<src>>
-            |              +--index.html
-            |
-            +-<<typings>>
-            +-.bowerrc
-            +-bower.json
-            +-Readme.md
-            +-tsd.json
+--<<myproject>>-+-<<app>>------+--<<bower_components>>
+
+                |              +--<<dist>>
+            
+                |              +--<<src>>
+            
+                |              +--index.html
+            
+                |
+            
+                +-<<typings>>
+            
+                +-.bowerrc
+            
+                +-bower.json
+            
+                +-Readme.md
+            
+                +-tsd.json
 ```
     
 
